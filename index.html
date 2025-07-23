@@ -6,12 +6,34 @@
     <title>Flower Market</title>
     <link rel="stylesheet" href="styles/style.css">
 
-    <!-- font awesome -->
+    <!-- font awesome cdn -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- tailwind cdn -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header>
+    <header class="container">
+        <!-- navbar -->
+        <nav class="flex justify-between items-center ">
+            <div class="nav-img">
+                <img class="w-[100px] h-auto  " src="./assets/logo.png" alt="">
+            </div>
 
+            <div class="navbar flex gap-4">
+                <ul class=" hidden lg:flex gap-4 ">
+                    <li>Home</li>
+                    <li class="text-gray-400">Shop</li>
+                    <li class="text-gray-400">About Us</li>
+                </ul>
+
+                <div class="cart-btn flex gap-2">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    <h3>Cart($56)</h3>
+                </div>
+            </div>
+        </nav>
+        
     </header>
     <main>
 
