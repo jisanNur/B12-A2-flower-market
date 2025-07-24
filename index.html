@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Market</title>
-    <link rel="stylesheet" href="styles/style.css">
 
+    <link rel="stylesheet" href="styles/style.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -40,9 +40,11 @@
     <header class="container">
         <section class="flex justify-between items-end mt-[50px] md:flex-row flex-col-reverse">
             <div class="banner-contant lg:w-[50%]">
-                <h1 class="md:text-[65px] text-4xl font-bold ">ALWAYS <span class="text-[#E95A08]">FRESH <br>
+                <h1 class="md:text-[65px] text-4xl font-bold noto-serif-font">ALWAYS <span class="text-[#E95A08]">FRESH
+                        <br>
                         FLOWERS</span></h1>
-                <p class="md:w-[60%] text-justify">Indulge your senses with the beauty and fragrance of our fresh flower
+                <p class="md:w-[60%] text-justify inter-font">Indulge your senses with the beauty and fragrance of our
+                    fresh flower
                     shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect
                     for any occasion. </p>
 
@@ -52,8 +54,67 @@
     </header>
     <main>
         <!-- Our Plan section -->
-        <section>
+        <section class="container ">
+            <!-- our plan contant -->
+            <div class="our-plan-contant text-center ">
+                <h1 class="md:text-7xl text-5xl font-bold noto-serif-font"><span class="text-[#E95A08]">Our</span>
+                    Plants</h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
 
+            <!-- our plan cards -->
+
+            <div class="our-plan-cards grid md:grid-cols-4 grid-cols-2 gap-2">
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+                <div class="card text-center w-[270px]">
+                    <img src="./assets/sample-flower-image.png" alt="">
+                    <p class="font-semibold text-2xl">Lily Blossom</p>
+                    <p class="font-bold text-2xl">20USD</p>
+                    <button class="bg-[#E95A08] text-white">ADD TO CART</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

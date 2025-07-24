@@ -28,3 +28,19 @@
     margin: 50px auto;
     width: 70%;
 }
+
+.our-plan-cards{
+    margin-top: 50px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px; */
+}
+
+.card button{
+    width: 100%;
+    padding: 15px ;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
