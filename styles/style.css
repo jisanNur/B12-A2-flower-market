@@ -87,7 +87,7 @@
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
     background-size: cover;
-    
+
 }
 
 .ana-plant {
@@ -105,7 +105,7 @@
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
     background-size: cover;
-    
+
 }
 
 .zabo-plant {
@@ -123,36 +123,48 @@
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
     background-size: cover;
-    grid-column: span 4; 
+    grid-column: span 4;
 }
 
-.left-side{
+.left-side {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     grid-column: span 2;
 }
- .latest-images {
+
+.latest-images {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
-    height: 70px;
-    
- }
+    height: auto;
 
- @media screen and (max-width: 576px) { 
-    .latest-images{
-        grid-template-columns: repeat(1, 1fr);
-        height: 200px;
+}
+
+.color-bunch{
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/news-letter-bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#subscribe{
+    padding: 13px;
+}
+
+@media screen and (max-width: 576px) {
+    .latest-images {
+        grid-template-columns: 1fr;
+        height: auto;
     }
 
-    .left-side{
-        grid-column: span 4;
+    .left-side, .zabo-plant {
+        grid-column: span 1;
     }
 
-    .zabo-plant{
-        height: 200px;
+    .zabo-plant {
+        min-height: 200px;
     }
 
 
- }
+}
