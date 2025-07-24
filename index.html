@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="styles/style.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
     <!-- navbar -->
-     fdghadfhad
     <nav class="flex justify-between items-center container">
         <div class="nav-img">
             <img class="w-[100px] h-auto  " src="./assets/logo.png" alt="">
@@ -38,7 +37,7 @@
         </div>
     </nav>
     <!-- Banner section -->
-    <header class="container">
+    <header class="container margin-contant">
         <section class="flex justify-between items-end mt-[50px] md:flex-row flex-col-reverse">
             <div class="banner-contant lg:w-[50%]">
                 <h1 class="md:text-[65px] text-4xl font-bold noto-serif-font">ALWAYS <span class="text-[#E95A08]">FRESH
@@ -55,7 +54,7 @@
     </header>
     <main>
         <!-- Our Plants section -->
-        <section class="container ">
+        <section class="container margin-contant">
             <!-- our plan contant -->
             <div class="our-plan-contant text-center ">
                 <h1 class="md:text-7xl text-5xl font-bold noto-serif-font"><span class="text-[#E95A08]">Our</span>
@@ -115,24 +114,66 @@
                     <p class="font-bold text-2xl">20USD</p>
                     <button class="bg-[#E95A08] text-white">ADD TO CART</button>
                 </div>
-              
+
             </div>
         </section>
 
+
+
         <!-- Flower Plant section -->
-         <section class="container flex">
-            <div class="flower-plant-img w-[50%]">
-                <img src="./assets/flower-store.png" alt="">
+        <section
+            class="flower-plants container margin-contant flex justify-between items-center md:flex-row flex-col gap-5 ">
+            <div class="flower-plant-img lg:w-[40%]">
+                <img class="w-[100%]" src="./assets/flower-store.png" alt="">
+                <img class="hidden lg:block trust-img w-[250px]" src="./assets/trusted-badge.png" alt="">
             </div>
-            <div class="flower-plant-contant w-[50%]">
-                <h1 class="text-5xl font-bold noto-serif-font">Flower & Plants <br> Lover</h1>
+            <div class="flower-plant-contant w-[95%] lg:w-[50%] ">
+                <h1 class="lg:text-6xl text-4xl font-extrabold noto-serif-font">Flower & Plants <br> Lover</h1>
                 <ul class="list-disc">
-                    <li class="text-gray-400 text-2xl text-justify">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="text-gray-400 text-2xl text-justify">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="text-gray-400 text-2xl text-justify">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="text-gray-400 lg:text-2xl text-justify">Indulge your senses with the beauty and fragrance
+                        of
+                        our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
+                    <li class="text-gray-400 lg:text-2xl text-justify">Indulge your senses with the beauty and fragrance
+                        of
+                        our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
+                    <li class="text-gray-400 lg:text-2xl text-justify">Indulge your senses with the beauty and fragrance
+                        of
+                        our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                    </li>
                 </ul>
             </div>
-         </section>
+        </section>
+
+        <!-- Latest Deals section -->
+        <section class="container margin-contant">
+            <div class="latest-contant text-center">
+                <h1 class="md:text-7xl text-5xl font-bold noto-serif-font"><span class="text-[#E95A08]">Latest</span>
+                    Plants</h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+
+            <div class="latest-images margin-contant">
+                <div class="left-side">
+                    <div class="bloom-plant">
+                    <p>60% Off | Bloom Plant</p>
+                    <a href="">Shop Now</a>
+                </div>
+                <div class="ana-plant">
+                    <p>30% Off | Ana  Plant</p>
+                    <a href="">Shop Now</a>
+                    
+                </div>
+            </div>
+            <div class="zabo-plant">
+                <p>25% Off | Zabo  Plant</p>
+                <a href="">Shop Now</a>
+                
+            </div>
+        </div>
+        </section>
     </main>
     <footer>
 
