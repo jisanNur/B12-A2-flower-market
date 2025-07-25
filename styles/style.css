@@ -24,14 +24,26 @@
     font-style: normal;
 }
 
+nav{
+    margin-top: 50px;
+}
+
 .container {
-    margin: 0 auto;
+    margin: 50px auto;
     width: 70%;
 }
 
 .margin-contant {
     margin-top: 100px;
 }
+
+/* banner styles */
+.banner-description, .our-plan-discription, .latest-plants-description{
+    color: gray;
+    font-size: 20px;
+    
+}
+
 
 .our-plan-cards {
     margin-top: 50px;
