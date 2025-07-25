@@ -141,15 +141,33 @@
 
 }
 
-.color-bunch{
-    background: linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/news-letter-bg.png);
-    background-size: auto;
+.color-bunch {
+    background: linear-gradient(rgba(0, 0, 0, 0.2)), url(../assets/news-letter-bg.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    text-align: center;
+    padding: 300px 30px;
 }
 
-#subscribe{
-    padding: 13px;
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.subscribe input {
+    padding: 15px 20%;
+}
+
+.subscribe input::placeholder {
+    font-size: 20px;
+    text-align: left;
+}
+
+.subscribe button {
+    padding: 15px 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -158,7 +176,8 @@
         height: auto;
     }
 
-    .left-side, .zabo-plant {
+    .left-side,
+    .zabo-plant {
         grid-column: span 1;
     }
 
@@ -166,5 +185,9 @@
         min-height: 200px;
     }
 
+    .subscribe{
+        width: 50%;
+        margin: 0 auto;
+    }
 
 }
