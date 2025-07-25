@@ -170,6 +170,12 @@
     padding: 15px 20px;
 }
 
+
+footer ul li{
+    line-height: 40px;
+}
+
+
 @media screen and (max-width: 576px) {
     .latest-images {
         grid-template-columns: 1fr;
